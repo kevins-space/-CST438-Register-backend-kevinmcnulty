@@ -19,7 +19,6 @@ public class Student {
 	public Student() {
 		super();
 	}
-	
 	public int getStudent_id() {
 		return student_id;
 	}
@@ -50,10 +49,19 @@ public class Student {
 	public void setStatus(String status) {
 		this.status = status;
 	}
+	
 	@Override
 	public String toString() {
 		return "Student [student_id=" + student_id + ", name=" + name + ", email=" + email + ", statusCode="
 				+ statusCode + ", status=" + status + "]";
 	}
-
+	public boolean isOnHold() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	public void setOnHold(boolean b) {
+		// TODO Auto-generated method stub
+		
+	}
+	
 }
